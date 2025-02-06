@@ -1,0 +1,57 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 150px; /* Ajuste conforme necessário */
+    position: relative;
+    margin: 0 auto; /* Centraliza o carousel no container */
+}
+
+.carousel_inner {
+    display: flex;
+    width: 200%; /* Duplicamos para garantir o loop */
+    animation: scroll 20s linear infinite; /* Movimento contínuo */
+}
+
+.carousel_item {
+    flex: 0 0 auto;
+    width: 16.666%; /* Cada item ocupa 1/6 da largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.carousel_item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Move apenas 50% para manter o loop */
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+    .carousel {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel {
+        width: 100%;
+    }
+}

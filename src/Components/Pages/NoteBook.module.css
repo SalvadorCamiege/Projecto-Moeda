@@ -1,0 +1,41 @@
+.Senction{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    margin-top: 130px;
+    
+}
+
+.section_espaco{
+     width: 100%;
+}
+
+.section_img{
+    width: 100%;
+}
+
+.Senction_1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 90px;
+    margin-top: 50px;
+}
+
+.principal{
+    width: 100%;
+    margin-top: -50px;
+    
+}
+
+.Senction_1_h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: -0px;
+}
+
+.Senction_1_p{
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,23 @@
+.section_0{
+    background-image: url('../../img/bbm.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    background-color:  rgb(39, 2, 72);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.section_1_h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section_1_p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}

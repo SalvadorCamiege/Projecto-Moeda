@@ -1,0 +1,72 @@
+{
+  "wallets": [
+    {
+      "id": "1",
+      "wallet_address": "0x123abc456def789gh012ij345klmno6789pqrst",
+      "username": "user1",
+      "email": "user1@example.com",
+      "created_at": "2025-01-30T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "wallet_address": "0x987zyx654wvu321ts098zyx654wvu321ts098zyx",
+      "username": "user2",
+      "email": "user2@example.com",
+      "created_at": "2025-01-30T12:15:00Z"
+    },
+    {
+      "id": "7e09",
+      "wallet_address": "12",
+      "username": "salvadorcamiege",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "3596",
+      "wallet_address": "12",
+      "username": "salvadorcamiege",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "30ed",
+      "wallet_address": "12",
+      "username": "salvadorcamiege",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "d6ed",
+      "wallet_address": "12",
+      "username": "salvador-ribeiro-camiege-03609",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "0352",
+      "wallet_address": "12",
+      "username": "salvadorcamiege",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "1174",
+      "wallet_address": "12",
+      "username": "salvadorcamiege",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "3bd7",
+      "wallet_address": "12345799",
+      "username": "Adriano Texeira",
+      "email": "camiegesalvador@gmail.com"
+    },
+    {
+      "id": "dcc1",
+      "wallet_address": "carteira123",
+      "username": "salvador",
+      "email": "cuaiacardoso@gmail.com"
+    },
+    {
+      "id": "4eeb",
+      "wallet_address": "Adriano123",
+      "username": "salvador",
+      "email": "cuaiacardoso@gmail.com"
+    }
+  ]
+}

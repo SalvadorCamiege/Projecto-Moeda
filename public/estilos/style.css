@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+body, html {
+    background-color: rgb(27, 1, 51); 
+    overflow-x: hidden; /* Remove a rolagem horizontal */
+}

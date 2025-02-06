@@ -1,0 +1,16 @@
+.sobre_button {
+    padding: 10px 50px;
+    background-image: linear-gradient(to right, rgb(6, 6, 165), rgb(137, 4, 4));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 470px;
+    margin-top: 30px;
+}
+
+.sobre_button:hover {
+    background-image: linear-gradient(to right, rgb(81, 81, 235), rgb(103, 4, 4));
+}

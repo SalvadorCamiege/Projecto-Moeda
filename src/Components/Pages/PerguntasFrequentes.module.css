@@ -1,0 +1,44 @@
+.Angola{
+    margin-top: 100px;
+}
+
+.perguntas_h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+.perguntas_p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pergunta {
+    margin-bottom: 10px;
+}
+
+.pergunta_button {
+    width: 100%;
+    text-align: left;
+    padding: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pergunta_button:hover {
+    background-color: #ddd;
+}
+
+.resposta {
+    background-color: #fff;
+    padding: 10px;
+    width: 98%;
+    border-left: 3px solid #007bff;
+    margin-top: 5px;
+    border-radius: 10px;
+
+}

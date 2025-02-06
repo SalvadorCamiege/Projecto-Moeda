@@ -1,0 +1,126 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4em;
+    z-index: 1000;
+    color: white;
+    font-family: Arial, sans-serif;
+    transition: background 0.4s ease;
+    background: linear-gradient(90deg, rgb(27, 1, 51), rgb(27, 1, 51), rgb(50, 2, 95));
+    background-size: 300% 100%;
+    animation: glowingBar 4s ease infinite;
+}
+
+@keyframes glowingBar {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Fundo {
+    background-image: url('../../img/bolinhas.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 2em;
+}
+
+.itemCarteira {
+    background-image: linear-gradient(to right, rgb(6, 6, 165), rgb(137, 4, 4));
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.itemCarteira:hover {
+    background-image: linear-gradient(to right, rgb(81, 81, 235), rgb(103, 4, 4));
+}
+
+.item a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+    transition: 3s;
+}
+
+/* Efeito de risco no hover */
+.item a:hover::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: 3s;
+}
+
+/* Remove o efeito de risco do último item */
+.list .item:last-child a:hover::after {
+    content: none;
+}
+
+/* Botão do menu hambúrguer */
+.menuToggle {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1100px) {
+    
+    /* Mostra o botão do menu no mobile */
+    .menuToggle {
+        display: block;
+    }
+
+    /* Esconde o menu por padrão */
+    .list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to right, rgb(6, 6, 165), rgb(137, 4, 4));
+        padding: 15px;       
+    }
+
+    /* Exibe o menu quando a classe .show for adicionada */
+    .list.show {
+        display: flex;
+    }
+
+    /* Adiciona margem superior para espaçar os itens */
+    .item {
+        margin-top: 20px; /* Espaçamento entre os itens do menu */
+    }
+}
